@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap");
+
+.light {
+  font-family: Rubik;
+  background-color: white;
+  margin: 0;
+}
+.dark {
+  background-color: rgb(16, 16, 16);
+  margin: 0;
+}
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.menu {
+  display: none;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  box-sizing: border-box;
+  font-size: 25px;
+  background-color: rgb(204, 197, 197);
+}
+img {
+  height: 20px;
+  width: 20px;
+}
+.menuspan img {
+  height: 40px;
+  width: 40px;
+}
+.menuspan {
+  margin: 2% 0%;
+  position: absolute;
+  z-index: 10;
+  height: fit-content;
+  width: fit-content;
+  padding-left: 3%;
+  border-radius: 5px;
+}
+.menuspan :hover {
+  border-radius: 5px;
+  background-color: #9e9e9e;
+  cursor: pointer;
+}
+.filteritems {
+  gap: 5px;
+  flex-direction: column;
+  display: flex;
+  font-size: small;
+  margin: 0 0 0 15%;
+  display: none;
+}
+.logo {
+  margin: 25% 0% 25%;
+  font-size: xxx-large;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+.features {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+  margin-left: 15%;
+}
+
+.filter,
+.setting,
+.f {
+  width: fit-content;
+  border-radius: 5px;
+}
+.filter:hover,
+.setting:hover,
+.f:hover {
+  cursor: pointer;
+  background-color: #9e9e9e;
+}
+
+.activity {
+  border-radius: 5px;
+  margin: 1% 2% 1% 10%;
+  box-sizing: border-box;
+  padding: 3%;
+  width: 90%;
+  background-color: rgb(204, 197, 197);
+  font-size: 25px;
+}
+.top {
+  align-items: center;
+  gap: 7%;
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 45px;
+}
+.date {
+  font-weight: 500;
+}
+.tasks {
+  gap: 5px;
+  align-items: center;
+  display: flex;
+  margin: 5% 5% 0% 5%;
+}
+.addtask img:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.add {
+  display: none;
+  width: 50vw;
+}
+.inputtask {
+  border-radius: 5px;
+  border: none;
+  background-color: azure;
+  height: 5vh;
+  width: 100%;
+}
+.add button {
+  border: none;
+}
+.add button:hover {
+  background-color: rgb(165, 170, 170);
+  cursor: pointer;
+}
+.addedtask {
+  margin: 3% 1% 3% 10%;
+  height: fit-content;
+  width: 60vw;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.item {
+  position: relative;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+.thirdimg {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 5px;
+}
+.firstimg:hover,
+.secondimg:hover,.thirdimg:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+ul li {
+  margin-bottom: 10px; /* space between items */
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+.secondimg{
+    display: none;
+}
