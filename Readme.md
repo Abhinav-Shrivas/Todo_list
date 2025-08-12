@@ -6,7 +6,6 @@ This is a simple yet effective to-do list web application built with **HTML**, *
 
 ## Features ✨
 
-* **Responsive Design**: The application is designed to be usable across different screen sizes.
 * **Add and Manage Tasks**: Easily add new tasks to your list.
 * **Mark as Complete**: Click on a task's checkbox to mark it as completed.
 * **Delete Tasks**: Remove tasks you no longer need.
